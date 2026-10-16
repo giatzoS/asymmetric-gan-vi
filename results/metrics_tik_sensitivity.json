@@ -1,0 +1,266 @@
+{
+ "study": "cifar10_dcgan32 asym_tik, gamma sweep",
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "runs": {
+  "1e-1": {
+   "0": {
+    "inception_score_mean": 1.002665335944728,
+    "inception_score_std": 6.88332371490977e-05,
+    "frechet_inception_distance": 537.7288161778697,
+    "kernel_inception_distance_mean": 0.6854894495010376,
+    "kernel_inception_distance_std": 0.002568129224986882,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "1": {
+    "inception_score_mean": 1.0063511097978968,
+    "inception_score_std": 0.00016242830615175417,
+    "frechet_inception_distance": 553.1754933776475,
+    "kernel_inception_distance_mean": 0.7059074473381043,
+    "kernel_inception_distance_std": 0.0031184966150331226,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "2": {
+    "inception_score_mean": 1.0065613153184232,
+    "inception_score_std": 0.00021990981666618675,
+    "frechet_inception_distance": 483.2946996182514,
+    "kernel_inception_distance_mean": 0.5693565678596496,
+    "kernel_inception_distance_std": 0.002903733151385382,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   }
+  },
+  "1e-2": {
+   "0": {
+    "inception_score_mean": 1.0016876110437125,
+    "inception_score_std": 5.2704946857936426e-05,
+    "frechet_inception_distance": 429.10411369195657,
+    "kernel_inception_distance_mean": 0.42904401302337647,
+    "kernel_inception_distance_std": 0.0034467857070681596,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "1": {
+    "inception_score_mean": 1.04780307264946,
+    "inception_score_std": 0.001522579613121108,
+    "frechet_inception_distance": 494.0654747446914,
+    "kernel_inception_distance_mean": 0.5821201348304749,
+    "kernel_inception_distance_std": 0.0032765384728794798,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "2": {
+    "inception_score_mean": 1.0027431698043612,
+    "inception_score_std": 5.2817020762555865e-05,
+    "frechet_inception_distance": 450.4750607081304,
+    "kernel_inception_distance_mean": 0.47075902462005614,
+    "kernel_inception_distance_std": 0.0032997641158816838,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   }
+  },
+  "1e-3": {
+   "0": {
+    "inception_score_mean": 5.295636681288906,
+    "inception_score_std": 0.16891575766278608,
+    "frechet_inception_distance": 57.87457361612769,
+    "kernel_inception_distance_mean": 0.04173780918121338,
+    "kernel_inception_distance_std": 0.0019577445505245656,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "1": {
+    "inception_score_mean": 5.658486502786646,
+    "inception_score_std": 0.15573532627996547,
+    "frechet_inception_distance": 50.8139029138199,
+    "kernel_inception_distance_mean": 0.03825607061386108,
+    "kernel_inception_distance_std": 0.0020014795911567716,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "2": {
+    "inception_score_mean": 5.8478440191175425,
+    "inception_score_std": 0.21229109732326237,
+    "frechet_inception_distance": 48.7618888493127,
+    "kernel_inception_distance_mean": 0.035658061504364014,
+    "kernel_inception_distance_std": 0.001939861476590191,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   }
+  },
+  "1e-4": {
+   "0": {
+    "inception_score_mean": 4.156739789990133,
+    "inception_score_std": 0.09338855734972568,
+    "frechet_inception_distance": 89.70999699064384,
+    "kernel_inception_distance_mean": 0.07677693605422974,
+    "kernel_inception_distance_std": 0.002920790383744709,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "1": {
+    "inception_score_mean": 4.551794007434803,
+    "inception_score_std": 0.1489990456714067,
+    "frechet_inception_distance": 76.20871296008397,
+    "kernel_inception_distance_mean": 0.06414279460906983,
+    "kernel_inception_distance_std": 0.0027380307313857443,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "2": {
+    "inception_score_mean": 4.564012812459592,
+    "inception_score_std": 0.1289995004545098,
+    "frechet_inception_distance": 74.59542132000888,
+    "kernel_inception_distance_mean": 0.061345555782318116,
+    "kernel_inception_distance_std": 0.002283058185878229,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   }
+  },
+  "1e-5": {
+   "0": {
+    "inception_score_mean": 3.830138298171243,
+    "inception_score_std": 0.08445412184397276,
+    "frechet_inception_distance": 102.43880089002545,
+    "kernel_inception_distance_mean": 0.0924822211265564,
+    "kernel_inception_distance_std": 0.0031055000674773733,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "1": {
+    "inception_score_mean": 4.407262934269867,
+    "inception_score_std": 0.1241558746374361,
+    "frechet_inception_distance": 80.61922091619863,
+    "kernel_inception_distance_mean": 0.06904565334320069,
+    "kernel_inception_distance_std": 0.002618181171447534,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "2": {
+    "inception_score_mean": 4.368341089805816,
+    "inception_score_std": 0.11831027794016119,
+    "frechet_inception_distance": 80.2922690332112,
+    "kernel_inception_distance_mean": 0.06724239349365234,
+    "kernel_inception_distance_std": 0.002453226915271789,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   }
+  },
+  "1e-6": {
+   "0": {
+    "inception_score_mean": 3.543421460038492,
+    "inception_score_std": 0.04689165542321812,
+    "frechet_inception_distance": 111.16327970727252,
+    "kernel_inception_distance_mean": 0.10584096670150757,
+    "kernel_inception_distance_std": 0.003019179188391131,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "1": {
+    "inception_score_mean": 4.071575770071813,
+    "inception_score_std": 0.06672735940167399,
+    "frechet_inception_distance": 89.59749948195946,
+    "kernel_inception_distance_mean": 0.080442373752594,
+    "kernel_inception_distance_std": 0.003024593060324097,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "2": {
+    "inception_score_mean": 4.018560543875871,
+    "inception_score_std": 0.12253479032594214,
+    "frechet_inception_distance": 94.16510779179453,
+    "kernel_inception_distance_mean": 0.0847671627998352,
+    "kernel_inception_distance_std": 0.002930501173253715,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   }
+  },
+  "1e-7": {
+   "0": {
+    "inception_score_mean": 3.188808327482408,
+    "inception_score_std": 0.07788146738029046,
+    "frechet_inception_distance": 121.66130924994292,
+    "kernel_inception_distance_mean": 0.11762986898422241,
+    "kernel_inception_distance_std": 0.0032371815295771274,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "1": {
+    "inception_score_mean": 4.080409864806794,
+    "inception_score_std": 0.11501656043458248,
+    "frechet_inception_distance": 91.99700217931138,
+    "kernel_inception_distance_mean": 0.08211726665496827,
+    "kernel_inception_distance_std": 0.0028328600753731127,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "2": {
+    "inception_score_mean": 4.070095745846505,
+    "inception_score_std": 0.10427242970371796,
+    "frechet_inception_distance": 88.62383094444567,
+    "kernel_inception_distance_mean": 0.07944578409194947,
+    "kernel_inception_distance_std": 0.002897732660336681,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   }
+  },
+  "1e-8": {
+   "0": {
+    "inception_score_mean": 4.029992746848958,
+    "inception_score_std": 0.12117757880345693,
+    "frechet_inception_distance": 86.86675279047427,
+    "kernel_inception_distance_mean": 0.07612367868423461,
+    "kernel_inception_distance_std": 0.0027707547109647917,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "1": {
+    "inception_score_mean": 4.207060289585134,
+    "inception_score_std": 0.12165965751073365,
+    "frechet_inception_distance": 86.83223266238542,
+    "kernel_inception_distance_mean": 0.07504112958908081,
+    "kernel_inception_distance_std": 0.0025660005453869957,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   },
+   "2": {
+    "inception_score_mean": 4.211263738173105,
+    "inception_score_std": 0.10787866938104333,
+    "frechet_inception_distance": 84.49113533833969,
+    "kernel_inception_distance_mean": 0.07216307640075684,
+    "kernel_inception_distance_std": 0.0025559881865061685,
+    "evaluation_num_images": 10000,
+    "reference": "cifar10-train",
+    "compute_is": true
+   }
+  }
+ }
+}
