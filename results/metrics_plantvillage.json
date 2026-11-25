@@ -1,0 +1,509 @@
+{
+ "study": "plantvillage_dcgan64",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "runs": {
+  "baseline_plain": {
+   "0": {
+    "frechet_inception_distance": 88.65236024302607,
+    "kernel_inception_distance_mean": 0.07579030275344849,
+    "kernel_inception_distance_std": 0.0019339307223965876,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "1": {
+    "frechet_inception_distance": 97.85718828833456,
+    "kernel_inception_distance_mean": 0.08996206998825074,
+    "kernel_inception_distance_std": 0.0016936678066576092,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "2": {
+    "frechet_inception_distance": 69.05345145968627,
+    "kernel_inception_distance_mean": 0.05258590459823608,
+    "kernel_inception_distance_std": 0.0009633275393925432,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "3": {
+    "frechet_inception_distance": 85.4112973583411,
+    "kernel_inception_distance_mean": 0.07258900642395019,
+    "kernel_inception_distance_std": 0.0017032429156046062,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "4": {
+    "frechet_inception_distance": 84.15532807289395,
+    "kernel_inception_distance_mean": 0.07249232530593872,
+    "kernel_inception_distance_std": 0.0014619674064286212,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "5": {
+    "frechet_inception_distance": 82.79078858072364,
+    "kernel_inception_distance_mean": 0.06911607027053833,
+    "kernel_inception_distance_std": 0.0016318619101166843,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "6": {
+    "frechet_inception_distance": 73.27893485892275,
+    "kernel_inception_distance_mean": 0.059321446418762205,
+    "kernel_inception_distance_std": 0.0011599895188649904,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "7": {
+    "frechet_inception_distance": 83.75449194619964,
+    "kernel_inception_distance_mean": 0.07308830976486207,
+    "kernel_inception_distance_std": 0.0012943888144959074,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "8": {
+    "frechet_inception_distance": 86.18494252545949,
+    "kernel_inception_distance_mean": 0.07040553331375123,
+    "kernel_inception_distance_std": 0.0014727653139184772,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "9": {
+    "frechet_inception_distance": 83.39272700215832,
+    "kernel_inception_distance_mean": 0.07176223039627075,
+    "kernel_inception_distance_std": 0.0012890747164844057,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   }
+  },
+  "baseline_sn": {
+   "0": {
+    "frechet_inception_distance": 52.73056726721771,
+    "kernel_inception_distance_mean": 0.03411274671554566,
+    "kernel_inception_distance_std": 0.001057711328157242,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "1": {
+    "frechet_inception_distance": 55.936205097566074,
+    "kernel_inception_distance_mean": 0.03798433542251587,
+    "kernel_inception_distance_std": 0.001105559213753651,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "2": {
+    "frechet_inception_distance": 56.29020129423671,
+    "kernel_inception_distance_mean": 0.03769073486328125,
+    "kernel_inception_distance_std": 0.0009310882457431855,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "3": {
+    "frechet_inception_distance": 46.51436256847899,
+    "kernel_inception_distance_mean": 0.028458597660064696,
+    "kernel_inception_distance_std": 0.0009180796484722685,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "4": {
+    "frechet_inception_distance": 53.25231505184206,
+    "kernel_inception_distance_mean": 0.03513556003570557,
+    "kernel_inception_distance_std": 0.0010072915206660335,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "5": {
+    "frechet_inception_distance": 57.454471255748956,
+    "kernel_inception_distance_mean": 0.03899940252304077,
+    "kernel_inception_distance_std": 0.001273674356942128,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "6": {
+    "frechet_inception_distance": 49.90201363160156,
+    "kernel_inception_distance_mean": 0.033264355659484865,
+    "kernel_inception_distance_std": 0.0010818467066312908,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "7": {
+    "frechet_inception_distance": 54.98002131060076,
+    "kernel_inception_distance_mean": 0.0367542028427124,
+    "kernel_inception_distance_std": 0.0011044262233897313,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "8": {
+    "frechet_inception_distance": 51.36677269562563,
+    "kernel_inception_distance_mean": 0.03345695972442627,
+    "kernel_inception_distance_std": 0.0010508022914471823,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "9": {
+    "frechet_inception_distance": 52.35019588910998,
+    "kernel_inception_distance_mean": 0.034052467346191405,
+    "kernel_inception_distance_std": 0.0009687526602441751,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   }
+  },
+  "zc_gp": {
+   "0": {
+    "frechet_inception_distance": 36.12831973469048,
+    "kernel_inception_distance_mean": 0.02192436933517456,
+    "kernel_inception_distance_std": 0.0009246921568659904,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "1": {
+    "frechet_inception_distance": 39.387832288291634,
+    "kernel_inception_distance_mean": 0.024794003963470458,
+    "kernel_inception_distance_std": 0.000816428712151415,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "2": {
+    "frechet_inception_distance": 37.333313794787614,
+    "kernel_inception_distance_mean": 0.02403106212615967,
+    "kernel_inception_distance_std": 0.0008319300629572945,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "3": {
+    "frechet_inception_distance": 35.13060396698472,
+    "kernel_inception_distance_mean": 0.02057828426361084,
+    "kernel_inception_distance_std": 0.0006882096125706709,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "4": {
+    "frechet_inception_distance": 36.83110618590112,
+    "kernel_inception_distance_mean": 0.02217819690704346,
+    "kernel_inception_distance_std": 0.0008535535783743485,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "5": {
+    "frechet_inception_distance": 32.495021052208585,
+    "kernel_inception_distance_mean": 0.01792827367782593,
+    "kernel_inception_distance_std": 0.0007559994417169171,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "6": {
+    "frechet_inception_distance": 36.04999376159424,
+    "kernel_inception_distance_mean": 0.021495444774627684,
+    "kernel_inception_distance_std": 0.0007325606842111567,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "7": {
+    "frechet_inception_distance": 35.34504154403098,
+    "kernel_inception_distance_mean": 0.02090198516845703,
+    "kernel_inception_distance_std": 0.0007929528594108563,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "8": {
+    "frechet_inception_distance": 34.332144461138256,
+    "kernel_inception_distance_mean": 0.021053359508514405,
+    "kernel_inception_distance_std": 0.0006978193816818883,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "9": {
+    "frechet_inception_distance": 40.837972235204745,
+    "kernel_inception_distance_mean": 0.02706127643585205,
+    "kernel_inception_distance_std": 0.0008514917126924672,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   }
+  },
+  "zc_gp_sn": {
+   "0": {
+    "frechet_inception_distance": 45.92418694384611,
+    "kernel_inception_distance_mean": 0.02955693244934082,
+    "kernel_inception_distance_std": 0.0008898768519208897,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "1": {
+    "frechet_inception_distance": 44.46110954043439,
+    "kernel_inception_distance_mean": 0.028259029388427736,
+    "kernel_inception_distance_std": 0.0008780354633534097,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "2": {
+    "frechet_inception_distance": 45.335136597934365,
+    "kernel_inception_distance_mean": 0.02864640474319458,
+    "kernel_inception_distance_std": 0.0008465257568518038,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "3": {
+    "frechet_inception_distance": 41.920328021725624,
+    "kernel_inception_distance_mean": 0.0260456919670105,
+    "kernel_inception_distance_std": 0.0008432578364108769,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "4": {
+    "frechet_inception_distance": 47.705993810856626,
+    "kernel_inception_distance_mean": 0.02973266124725342,
+    "kernel_inception_distance_std": 0.000972191435508744,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "5": {
+    "frechet_inception_distance": 47.96581943785441,
+    "kernel_inception_distance_mean": 0.029718000888824463,
+    "kernel_inception_distance_std": 0.0010105744531703007,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "6": {
+    "frechet_inception_distance": 45.12222976827786,
+    "kernel_inception_distance_mean": 0.028674342632293702,
+    "kernel_inception_distance_std": 0.000838000200285698,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "7": {
+    "frechet_inception_distance": 43.415181085273844,
+    "kernel_inception_distance_mean": 0.026498351097106933,
+    "kernel_inception_distance_std": 0.0008758534849437088,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "8": {
+    "frechet_inception_distance": 45.08651936934859,
+    "kernel_inception_distance_mean": 0.028030788898468016,
+    "kernel_inception_distance_std": 0.000941556753910117,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "9": {
+    "frechet_inception_distance": 44.50979305848466,
+    "kernel_inception_distance_mean": 0.028349552154541015,
+    "kernel_inception_distance_std": 0.0008390150121458346,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   }
+  },
+  "asym_tik": {
+   "0": {
+    "frechet_inception_distance": 68.78888355281094,
+    "kernel_inception_distance_mean": 0.053353099822998046,
+    "kernel_inception_distance_std": 0.0009864578084451423,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "1": {
+    "frechet_inception_distance": 81.50154911624347,
+    "kernel_inception_distance_mean": 0.06349339962005615,
+    "kernel_inception_distance_std": 0.0012300710344069132,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "2": {
+    "frechet_inception_distance": 73.93685753660327,
+    "kernel_inception_distance_mean": 0.06418600797653198,
+    "kernel_inception_distance_std": 0.001446528828910418,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "3": {
+    "frechet_inception_distance": 90.13877166855536,
+    "kernel_inception_distance_mean": 0.07556298971176148,
+    "kernel_inception_distance_std": 0.0016910616281861053,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "4": {
+    "frechet_inception_distance": 69.11551163832632,
+    "kernel_inception_distance_mean": 0.05296515941619873,
+    "kernel_inception_distance_std": 0.000997876490934407,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "5": {
+    "frechet_inception_distance": 84.64235041770962,
+    "kernel_inception_distance_mean": 0.07383432149887086,
+    "kernel_inception_distance_std": 0.001635481985890946,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "6": {
+    "frechet_inception_distance": 71.02872507051515,
+    "kernel_inception_distance_mean": 0.055104007720947264,
+    "kernel_inception_distance_std": 0.0011476541522981787,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "7": {
+    "frechet_inception_distance": 73.71232992183857,
+    "kernel_inception_distance_mean": 0.06038651704788208,
+    "kernel_inception_distance_std": 0.0012654061344822352,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "8": {
+    "frechet_inception_distance": 68.91792963446915,
+    "kernel_inception_distance_mean": 0.052927560806274414,
+    "kernel_inception_distance_std": 0.0010576101946185416,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "9": {
+    "frechet_inception_distance": 95.12295724276225,
+    "kernel_inception_distance_mean": 0.08330180406570435,
+    "kernel_inception_distance_std": 0.0019116460643835184,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   }
+  },
+  "asym_tik_sn": {
+   "0": {
+    "frechet_inception_distance": 48.53372488606908,
+    "kernel_inception_distance_mean": 0.03047897815704346,
+    "kernel_inception_distance_std": 0.0009107036027629458,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "1": {
+    "frechet_inception_distance": 54.19518568114867,
+    "kernel_inception_distance_mean": 0.036813087463378906,
+    "kernel_inception_distance_std": 0.0011095413620955646,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "2": {
+    "frechet_inception_distance": 52.804026228296635,
+    "kernel_inception_distance_mean": 0.034351117610931396,
+    "kernel_inception_distance_std": 0.0009419269133029947,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "3": {
+    "frechet_inception_distance": 48.65710760002,
+    "kernel_inception_distance_mean": 0.03118201971054077,
+    "kernel_inception_distance_std": 0.0009589504074161789,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "4": {
+    "frechet_inception_distance": 53.50838094299735,
+    "kernel_inception_distance_mean": 0.03581910371780395,
+    "kernel_inception_distance_std": 0.001032121679497864,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "5": {
+    "frechet_inception_distance": 57.241339642297135,
+    "kernel_inception_distance_mean": 0.03906378984451294,
+    "kernel_inception_distance_std": 0.0011466184610073218,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "6": {
+    "frechet_inception_distance": 52.76655856542479,
+    "kernel_inception_distance_mean": 0.034401774406433105,
+    "kernel_inception_distance_std": 0.0010463962209650089,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "7": {
+    "frechet_inception_distance": 54.057783688750675,
+    "kernel_inception_distance_mean": 0.035566627979278564,
+    "kernel_inception_distance_std": 0.001046167543192047,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "8": {
+    "frechet_inception_distance": 54.351910840216135,
+    "kernel_inception_distance_mean": 0.036711556911468504,
+    "kernel_inception_distance_std": 0.0011117782549468725,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   },
+   "9": {
+    "frechet_inception_distance": 50.12715614002303,
+    "kernel_inception_distance_mean": 0.03186020612716675,
+    "kernel_inception_distance_std": 0.0010042514437466903,
+    "evaluation_num_images": 10000,
+    "reference": "outputs_final_pv30k/plantvillage_dcgan64/_references/plantvillage_64px_official_leaf_grouped_80_20_n10000",
+    "compute_is": false
+   }
+  }
+ }
+}

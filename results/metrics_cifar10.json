@@ -1,0 +1,593 @@
+{
+ "study": "cifar10_dcgan32",
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "runs": {
+  "baseline_plain": {
+   "0": {
+    "inception_score_mean": 4.0955277707411835,
+    "inception_score_std": 0.11159108490481223,
+    "frechet_inception_distance": 92.18749129578867,
+    "kernel_inception_distance_mean": 0.0834939432144165,
+    "kernel_inception_distance_std": 0.0029105731306877944
+   },
+   "1": {
+    "inception_score_mean": 4.064429787525357,
+    "inception_score_std": 0.062095599422161335,
+    "frechet_inception_distance": 90.11868851200467,
+    "kernel_inception_distance_mean": 0.0795468258857727,
+    "kernel_inception_distance_std": 0.002993014302002718
+   },
+   "2": {
+    "inception_score_mean": 4.220944493042676,
+    "inception_score_std": 0.12743253007808225,
+    "frechet_inception_distance": 86.34595339775456,
+    "kernel_inception_distance_mean": 0.07400848627090455,
+    "kernel_inception_distance_std": 0.0027245500577884234
+   },
+   "3": {
+    "inception_score_mean": 3.702618938831383,
+    "inception_score_std": 0.08746666923373997,
+    "frechet_inception_distance": 99.86710750995866,
+    "kernel_inception_distance_mean": 0.09427766799926758,
+    "kernel_inception_distance_std": 0.0029938180402737506
+   },
+   "4": {
+    "inception_score_mean": 4.173960965992513,
+    "inception_score_std": 0.11839133143579739,
+    "frechet_inception_distance": 86.48875905929646,
+    "kernel_inception_distance_mean": 0.07407426118850707,
+    "kernel_inception_distance_std": 0.0025920359533050607
+   },
+   "5": {
+    "inception_score_mean": 3.6652727585508096,
+    "inception_score_std": 0.0486190721617284,
+    "frechet_inception_distance": 96.05658226486128,
+    "kernel_inception_distance_mean": 0.0870893383026123,
+    "kernel_inception_distance_std": 0.0029947086437705126
+   },
+   "6": {
+    "inception_score_mean": 4.254666385464919,
+    "inception_score_std": 0.1021307001088287,
+    "frechet_inception_distance": 84.37128146457661,
+    "kernel_inception_distance_mean": 0.07293379306793213,
+    "kernel_inception_distance_std": 0.002546854458980175
+   },
+   "7": {
+    "inception_score_mean": 4.0738819351989175,
+    "inception_score_std": 0.06218004513016347,
+    "frechet_inception_distance": 90.14441047539248,
+    "kernel_inception_distance_mean": 0.08064772605895996,
+    "kernel_inception_distance_std": 0.00290886016282
+   },
+   "8": {
+    "inception_score_mean": 3.561389991044556,
+    "inception_score_std": 0.07934976358190202,
+    "frechet_inception_distance": 106.81681036478676,
+    "kernel_inception_distance_mean": 0.10187739610671998,
+    "kernel_inception_distance_std": 0.003491371538080998
+   },
+   "9": {
+    "inception_score_mean": 4.195888002913501,
+    "inception_score_std": 0.08674150760865548,
+    "frechet_inception_distance": 90.2105113913384,
+    "kernel_inception_distance_mean": 0.07915430068969727,
+    "kernel_inception_distance_std": 0.0028936526340646207
+   }
+  },
+  "baseline_sn": {
+   "0": {
+    "inception_score_mean": 6.207551359578907,
+    "inception_score_std": 0.13208711016395708,
+    "frechet_inception_distance": 43.454743946304404,
+    "kernel_inception_distance_mean": 0.029457085132598877,
+    "kernel_inception_distance_std": 0.0014601692994133898
+   },
+   "1": {
+    "inception_score_mean": 6.345911751643581,
+    "inception_score_std": 0.15771928416818495,
+    "frechet_inception_distance": 45.135558551499116,
+    "kernel_inception_distance_mean": 0.02936573266983032,
+    "kernel_inception_distance_std": 0.0013878715783696139
+   },
+   "2": {
+    "inception_score_mean": 6.054764020020931,
+    "inception_score_std": 0.15538992706786425,
+    "frechet_inception_distance": 44.16767007464608,
+    "kernel_inception_distance_mean": 0.02982199192047119,
+    "kernel_inception_distance_std": 0.001626142110021635
+   },
+   "3": {
+    "inception_score_mean": 5.990914117333566,
+    "inception_score_std": 0.12214713575903312,
+    "frechet_inception_distance": 43.90714224904002,
+    "kernel_inception_distance_mean": 0.03152976989746094,
+    "kernel_inception_distance_std": 0.0016539385672366754
+   },
+   "4": {
+    "inception_score_mean": 6.107075295421562,
+    "inception_score_std": 0.0834385960585733,
+    "frechet_inception_distance": 42.51329413575809,
+    "kernel_inception_distance_mean": 0.02762282848358154,
+    "kernel_inception_distance_std": 0.0015226935627089156
+   },
+   "5": {
+    "inception_score_mean": 5.733711921231517,
+    "inception_score_std": 0.15995315502139776,
+    "frechet_inception_distance": 44.81305146123782,
+    "kernel_inception_distance_mean": 0.03026782989501953,
+    "kernel_inception_distance_std": 0.0014526435700122763
+   },
+   "6": {
+    "inception_score_mean": 6.337655732202523,
+    "inception_score_std": 0.17957536674234525,
+    "frechet_inception_distance": 42.255241370426916,
+    "kernel_inception_distance_mean": 0.028182802200317384,
+    "kernel_inception_distance_std": 0.001460825167715173
+   },
+   "7": {
+    "inception_score_mean": 6.170512392524907,
+    "inception_score_std": 0.12333629372484453,
+    "frechet_inception_distance": 43.454250249201095,
+    "kernel_inception_distance_mean": 0.029881517887115478,
+    "kernel_inception_distance_std": 0.0013168757250376706
+   },
+   "8": {
+    "inception_score_mean": 5.940815189617163,
+    "inception_score_std": 0.14651150044466393,
+    "frechet_inception_distance": 44.34773083234768,
+    "kernel_inception_distance_mean": 0.029982373714447022,
+    "kernel_inception_distance_std": 0.001573477048676589
+   },
+   "9": {
+    "inception_score_mean": 5.983062308735224,
+    "inception_score_std": 0.12351251407441105,
+    "frechet_inception_distance": 47.67484735996527,
+    "kernel_inception_distance_mean": 0.0321195912361145,
+    "kernel_inception_distance_std": 0.0014702745976256596
+   }
+  },
+  "proposed_GP": {
+   "0": {
+    "inception_score_mean": 6.327249222059906,
+    "inception_score_std": 0.19162403055656685,
+    "frechet_inception_distance": 36.68209429464781,
+    "kernel_inception_distance_mean": 0.024619014263153077,
+    "kernel_inception_distance_std": 0.001439208777467733
+   },
+   "1": {
+    "inception_score_mean": 6.389416946926451,
+    "inception_score_std": 0.19597540274230038,
+    "frechet_inception_distance": 38.00287526988649,
+    "kernel_inception_distance_mean": 0.024945347309112548,
+    "kernel_inception_distance_std": 0.0013064236183992894
+   },
+   "2": {
+    "inception_score_mean": 6.428308286600573,
+    "inception_score_std": 0.16560978440342686,
+    "frechet_inception_distance": 36.71976464794773,
+    "kernel_inception_distance_mean": 0.025630967617034914,
+    "kernel_inception_distance_std": 0.0014606907966136012
+   },
+   "3": {
+    "inception_score_mean": 6.449104045070859,
+    "inception_score_std": 0.1760412467177881,
+    "frechet_inception_distance": 37.324183544722985,
+    "kernel_inception_distance_mean": 0.024368512630462646,
+    "kernel_inception_distance_std": 0.0013322010303371344
+   },
+   "4": {
+    "inception_score_mean": 6.436007229156414,
+    "inception_score_std": 0.16191076064470114,
+    "frechet_inception_distance": 36.582730660419884,
+    "kernel_inception_distance_mean": 0.02353656530380249,
+    "kernel_inception_distance_std": 0.0014243944961945091
+   },
+   "5": {
+    "inception_score_mean": 6.3755047331774914,
+    "inception_score_std": 0.12020123157011772,
+    "frechet_inception_distance": 37.988685991870284,
+    "kernel_inception_distance_mean": 0.024974851608276366,
+    "kernel_inception_distance_std": 0.0012905584505160071
+   },
+   "6": {
+    "inception_score_mean": 6.261323831075312,
+    "inception_score_std": 0.15904809334662276,
+    "frechet_inception_distance": 38.80453109558073,
+    "kernel_inception_distance_mean": 0.025988242626190185,
+    "kernel_inception_distance_std": 0.0014614325142837078
+   },
+   "7": {
+    "inception_score_mean": 6.210495132275177,
+    "inception_score_std": 0.11933561062320978,
+    "frechet_inception_distance": 38.0078973934028,
+    "kernel_inception_distance_mean": 0.02571303129196167,
+    "kernel_inception_distance_std": 0.00140062427217108
+   },
+   "8": {
+    "inception_score_mean": 6.495678468645091,
+    "inception_score_std": 0.15526326878024552,
+    "frechet_inception_distance": 37.89544118877086,
+    "kernel_inception_distance_mean": 0.02520892858505249,
+    "kernel_inception_distance_std": 0.001374902714559281
+   },
+   "9": {
+    "inception_score_mean": 6.336350132383171,
+    "inception_score_std": 0.1516663577711964,
+    "frechet_inception_distance": 39.06780634888213,
+    "kernel_inception_distance_mean": 0.02533805847167969,
+    "kernel_inception_distance_std": 0.0014144610612604933
+   }
+  },
+  "proposed_GP_SN": {
+   "0": {
+    "inception_score_mean": 6.266114779304116,
+    "inception_score_std": 0.20387334973470833,
+    "frechet_inception_distance": 41.484781155771145,
+    "kernel_inception_distance_mean": 0.028026092052459716,
+    "kernel_inception_distance_std": 0.001607175700393717
+   },
+   "1": {
+    "inception_score_mean": 6.131733782709027,
+    "inception_score_std": 0.16082723858483833,
+    "frechet_inception_distance": 44.24004460181652,
+    "kernel_inception_distance_mean": 0.028046600818634033,
+    "kernel_inception_distance_std": 0.001572159307381361
+   },
+   "2": {
+    "inception_score_mean": 6.370233067831878,
+    "inception_score_std": 0.17530812391341466,
+    "frechet_inception_distance": 41.08118134530912,
+    "kernel_inception_distance_mean": 0.02924023151397705,
+    "kernel_inception_distance_std": 0.001510869640674025
+   },
+   "3": {
+    "inception_score_mean": 6.136609135465245,
+    "inception_score_std": 0.17184134254279132,
+    "frechet_inception_distance": 39.589879150115394,
+    "kernel_inception_distance_mean": 0.02615145444869995,
+    "kernel_inception_distance_std": 0.0014382849736890866
+   },
+   "4": {
+    "inception_score_mean": 6.3764188244364295,
+    "inception_score_std": 0.2155405179371106,
+    "frechet_inception_distance": 41.20480003722389,
+    "kernel_inception_distance_mean": 0.026891627311706544,
+    "kernel_inception_distance_std": 0.0015264675104897478
+   },
+   "5": {
+    "inception_score_mean": 6.2461133772918895,
+    "inception_score_std": 0.1277793292076688,
+    "frechet_inception_distance": 41.52106583385421,
+    "kernel_inception_distance_mean": 0.029062464237213134,
+    "kernel_inception_distance_std": 0.0015078778776182096
+   },
+   "6": {
+    "inception_score_mean": 6.403196020626913,
+    "inception_score_std": 0.1203055455514293,
+    "frechet_inception_distance": 41.85659664383138,
+    "kernel_inception_distance_mean": 0.0270747971534729,
+    "kernel_inception_distance_std": 0.0015036649629037579
+   },
+   "7": {
+    "inception_score_mean": 6.569782213678804,
+    "inception_score_std": 0.16312228157951023,
+    "frechet_inception_distance": 41.53238144031957,
+    "kernel_inception_distance_mean": 0.026992480754852295,
+    "kernel_inception_distance_std": 0.0014963456178146617
+   },
+   "8": {
+    "inception_score_mean": 6.406111327867445,
+    "inception_score_std": 0.14533124618988194,
+    "frechet_inception_distance": 39.74038725579072,
+    "kernel_inception_distance_mean": 0.026897616386413574,
+    "kernel_inception_distance_std": 0.0015709379742175308
+   },
+   "9": {
+    "inception_score_mean": 6.185255759974364,
+    "inception_score_std": 0.1388702577836809,
+    "frechet_inception_distance": 44.06856564292855,
+    "kernel_inception_distance_mean": 0.029085521697998048,
+    "kernel_inception_distance_std": 0.0014653977101950536
+   }
+  },
+  "proposed_Tikh": {
+   "0": {
+    "inception_score_mean": 4.28748735209432,
+    "inception_score_std": 0.06497001390354333,
+    "frechet_inception_distance": 81.4743941290547,
+    "kernel_inception_distance_mean": 0.06959253311157226,
+    "kernel_inception_distance_std": 0.00273943579022316
+   },
+   "1": {
+    "inception_score_mean": 3.864695031820581,
+    "inception_score_std": 0.08106944565229095,
+    "frechet_inception_distance": 93.1630613898705,
+    "kernel_inception_distance_mean": 0.08151467800140381,
+    "kernel_inception_distance_std": 0.0030764453211845713
+   },
+   "2": {
+    "inception_score_mean": 4.009359306430114,
+    "inception_score_std": 0.1147041073502906,
+    "frechet_inception_distance": 93.6985669033337,
+    "kernel_inception_distance_mean": 0.08236666440963746,
+    "kernel_inception_distance_std": 0.00265887196286485
+   },
+   "3": {
+    "inception_score_mean": 4.035349407853701,
+    "inception_score_std": 0.09464891923458434,
+    "frechet_inception_distance": 89.91554233520662,
+    "kernel_inception_distance_mean": 0.07767625808715821,
+    "kernel_inception_distance_std": 0.0026301751551502067
+   },
+   "4": {
+    "inception_score_mean": 3.858218232295628,
+    "inception_score_std": 0.10963941765200541,
+    "frechet_inception_distance": 96.36970015861954,
+    "kernel_inception_distance_mean": 0.08546799182891845,
+    "kernel_inception_distance_std": 0.0028564237999859016
+   },
+   "5": {
+    "inception_score_mean": 3.794228315543271,
+    "inception_score_std": 0.09013994798597573,
+    "frechet_inception_distance": 96.60488840034253,
+    "kernel_inception_distance_mean": 0.08694496870040894,
+    "kernel_inception_distance_std": 0.003005300129493947
+   },
+   "6": {
+    "inception_score_mean": 4.042873439633047,
+    "inception_score_std": 0.12044189767541254,
+    "frechet_inception_distance": 88.91771653957977,
+    "kernel_inception_distance_mean": 0.0777454423904419,
+    "kernel_inception_distance_std": 0.0026139514646078723
+   },
+   "7": {
+    "inception_score_mean": 3.9359708456135065,
+    "inception_score_std": 0.07390653438518138,
+    "frechet_inception_distance": 92.39956587165108,
+    "kernel_inception_distance_mean": 0.08335470199584961,
+    "kernel_inception_distance_std": 0.0027018163924281027
+   },
+   "8": {
+    "inception_score_mean": 3.678934749706932,
+    "inception_score_std": 0.09307818622168422,
+    "frechet_inception_distance": 101.39497994941217,
+    "kernel_inception_distance_mean": 0.09358243703842163,
+    "kernel_inception_distance_std": 0.0032299538159856556
+   },
+   "9": {
+    "inception_score_mean": 4.131876388878051,
+    "inception_score_std": 0.15510365387726943,
+    "frechet_inception_distance": 89.53312295737425,
+    "kernel_inception_distance_mean": 0.07998321771621704,
+    "kernel_inception_distance_std": 0.0028343218302767396
+   }
+  },
+  "proposed_Tikh_SN": {
+   "0": {
+    "inception_score_mean": 6.03784052510336,
+    "inception_score_std": 0.16866878042997974,
+    "frechet_inception_distance": 42.895961018549144,
+    "kernel_inception_distance_mean": 0.0275161075592041,
+    "kernel_inception_distance_std": 0.00145001488026085
+   },
+   "1": {
+    "inception_score_mean": 5.713111754438386,
+    "inception_score_std": 0.12171784264955031,
+    "frechet_inception_distance": 47.52239206609153,
+    "kernel_inception_distance_mean": 0.030348889827728272,
+    "kernel_inception_distance_std": 0.0013785980940640237
+   },
+   "2": {
+    "inception_score_mean": 5.966788505256392,
+    "inception_score_std": 0.14068369813204845,
+    "frechet_inception_distance": 44.19383541726086,
+    "kernel_inception_distance_mean": 0.03134119987487793,
+    "kernel_inception_distance_std": 0.0014834470671654402
+   },
+   "3": {
+    "inception_score_mean": 5.937055323202219,
+    "inception_score_std": 0.13311417270240222,
+    "frechet_inception_distance": 43.75311881349489,
+    "kernel_inception_distance_mean": 0.03007704496383667,
+    "kernel_inception_distance_std": 0.0014746722243558594
+   },
+   "4": {
+    "inception_score_mean": 6.095822839122315,
+    "inception_score_std": 0.2163715486568871,
+    "frechet_inception_distance": 44.7892147084296,
+    "kernel_inception_distance_mean": 0.03187545299530029,
+    "kernel_inception_distance_std": 0.001478262879844541
+   },
+   "5": {
+    "inception_score_mean": 6.200600179392072,
+    "inception_score_std": 0.1184674832902936,
+    "frechet_inception_distance": 43.412873845265835,
+    "kernel_inception_distance_mean": 0.029724910259246826,
+    "kernel_inception_distance_std": 0.0013958587841051068
+   },
+   "6": {
+    "inception_score_mean": 6.125384127551294,
+    "inception_score_std": 0.14311598620861363,
+    "frechet_inception_distance": 42.64098349151993,
+    "kernel_inception_distance_mean": 0.02907376766204834,
+    "kernel_inception_distance_std": 0.0015769186250207015
+   },
+   "7": {
+    "inception_score_mean": 6.013921833200382,
+    "inception_score_std": 0.13929072540386822,
+    "frechet_inception_distance": 44.05901404964396,
+    "kernel_inception_distance_mean": 0.02923245668411255,
+    "kernel_inception_distance_std": 0.0013450044653685695
+   },
+   "8": {
+    "inception_score_mean": 5.958389830835569,
+    "inception_score_std": 0.1555744452187538,
+    "frechet_inception_distance": 44.12882944562216,
+    "kernel_inception_distance_mean": 0.031089279651641846,
+    "kernel_inception_distance_std": 0.0016566301814377152
+   },
+   "9": {
+    "inception_score_mean": 5.981002530439997,
+    "inception_score_std": 0.15791178265367492,
+    "frechet_inception_distance": 43.86171783706794,
+    "kernel_inception_distance_mean": 0.0293278169631958,
+    "kernel_inception_distance_std": 0.0013319394091520092
+   }
+  },
+  "symmetric_Tikh": {
+   "0": {
+    "inception_score_mean": 4.05363184325502,
+    "inception_score_std": 0.11632778329287469,
+    "frechet_inception_distance": 90.57237780796663,
+    "kernel_inception_distance_mean": 0.07912140369415283,
+    "kernel_inception_distance_std": 0.002687098757529435
+   },
+   "1": {
+    "inception_score_mean": 3.974337254339178,
+    "inception_score_std": 0.11586386422031601,
+    "frechet_inception_distance": 91.85159596088283,
+    "kernel_inception_distance_mean": 0.08117885112762452,
+    "kernel_inception_distance_std": 0.0027835896878232167
+   },
+   "2": {
+    "inception_score_mean": 3.7943341019851475,
+    "inception_score_std": 0.06903203476666797,
+    "frechet_inception_distance": 101.1318758897155,
+    "kernel_inception_distance_mean": 0.09108353853225708,
+    "kernel_inception_distance_std": 0.002924979267734809
+   },
+   "3": {
+    "inception_score_mean": 3.5832895977768877,
+    "inception_score_std": 0.07216106988751352,
+    "frechet_inception_distance": 104.82281303546858,
+    "kernel_inception_distance_mean": 0.09580137252807618,
+    "kernel_inception_distance_std": 0.0031117227896825597
+   },
+   "4": {
+    "inception_score_mean": 4.092244340570707,
+    "inception_score_std": 0.09270427164657238,
+    "frechet_inception_distance": 87.94782069029134,
+    "kernel_inception_distance_mean": 0.07791922330856323,
+    "kernel_inception_distance_std": 0.0028393683053119997
+   },
+   "5": {
+    "inception_score_mean": 3.708513020968758,
+    "inception_score_std": 0.07028711906241651,
+    "frechet_inception_distance": 95.40757688529209,
+    "kernel_inception_distance_mean": 0.08596818685531617,
+    "kernel_inception_distance_std": 0.0027758602839493152
+   },
+   "6": {
+    "inception_score_mean": 4.09346943472807,
+    "inception_score_std": 0.11656720640106653,
+    "frechet_inception_distance": 86.98723626008723,
+    "kernel_inception_distance_mean": 0.075569167137146,
+    "kernel_inception_distance_std": 0.0026835856022234626
+   },
+   "7": {
+    "inception_score_mean": 4.064774963577591,
+    "inception_score_std": 0.14367581100969173,
+    "frechet_inception_distance": 88.9099089108467,
+    "kernel_inception_distance_mean": 0.07840310335159302,
+    "kernel_inception_distance_std": 0.0028635353702411884
+   },
+   "8": {
+    "inception_score_mean": 3.6961553368651687,
+    "inception_score_std": 0.11523739030637986,
+    "frechet_inception_distance": 101.87370280647303,
+    "kernel_inception_distance_mean": 0.09629697799682617,
+    "kernel_inception_distance_std": 0.0030041319020325838
+   },
+   "9": {
+    "inception_score_mean": 4.260096775850963,
+    "inception_score_std": 0.14004102379341607,
+    "frechet_inception_distance": 85.88226621091718,
+    "kernel_inception_distance_mean": 0.07482271671295165,
+    "kernel_inception_distance_std": 0.0027485016831019066
+   }
+  },
+  "symmetric_Tikh_SN": {
+   "0": {
+    "inception_score_mean": 6.143227380921521,
+    "inception_score_std": 0.13316202545411363,
+    "frechet_inception_distance": 41.51193420920396,
+    "kernel_inception_distance_mean": 0.028335142135620116,
+    "kernel_inception_distance_std": 0.0015842705320521953
+   },
+   "1": {
+    "inception_score_mean": 5.791420123184438,
+    "inception_score_std": 0.11956069304374468,
+    "frechet_inception_distance": 47.74064753421743,
+    "kernel_inception_distance_mean": 0.031760833263397216,
+    "kernel_inception_distance_std": 0.0015671762011349071
+   },
+   "2": {
+    "inception_score_mean": 6.040114825895329,
+    "inception_score_std": 0.13795792875549612,
+    "frechet_inception_distance": 43.45763331151994,
+    "kernel_inception_distance_mean": 0.030231332778930663,
+    "kernel_inception_distance_std": 0.0015836245925123897
+   },
+   "3": {
+    "inception_score_mean": 5.932196166057746,
+    "inception_score_std": 0.09672063227551583,
+    "frechet_inception_distance": 44.0060257151498,
+    "kernel_inception_distance_mean": 0.03133745908737182,
+    "kernel_inception_distance_std": 0.0015904955216464079
+   },
+   "4": {
+    "inception_score_mean": 6.26274333606095,
+    "inception_score_std": 0.12044205052840656,
+    "frechet_inception_distance": 42.56215001938102,
+    "kernel_inception_distance_mean": 0.030534143447875976,
+    "kernel_inception_distance_std": 0.0017559099718133784
+   },
+   "5": {
+    "inception_score_mean": 6.024140492170943,
+    "inception_score_std": 0.1273961147727522,
+    "frechet_inception_distance": 44.84713784963134,
+    "kernel_inception_distance_mean": 0.030418126583099364,
+    "kernel_inception_distance_std": 0.0014045660752294363
+   },
+   "6": {
+    "inception_score_mean": 5.83429478662591,
+    "inception_score_std": 0.11342440065949455,
+    "frechet_inception_distance": 42.99160069500368,
+    "kernel_inception_distance_mean": 0.028721084594726564,
+    "kernel_inception_distance_std": 0.001431268218041416
+   },
+   "7": {
+    "inception_score_mean": 6.12031789230279,
+    "inception_score_std": 0.08791057424430497,
+    "frechet_inception_distance": 42.73275681534409,
+    "kernel_inception_distance_mean": 0.028186032772064207,
+    "kernel_inception_distance_std": 0.001509952547912279
+   },
+   "8": {
+    "inception_score_mean": 6.276236073896923,
+    "inception_score_std": 0.10194483338538281,
+    "frechet_inception_distance": 42.066918720704905,
+    "kernel_inception_distance_mean": 0.030187695026397704,
+    "kernel_inception_distance_std": 0.0017264681056497365
+   },
+   "9": {
+    "inception_score_mean": 5.985284381666046,
+    "inception_score_std": 0.12277444013786785,
+    "frechet_inception_distance": 44.6974342672699,
+    "kernel_inception_distance_mean": 0.03164907932281494,
+    "kernel_inception_distance_std": 0.001785365086271088
+   }
+  }
+ }
+}

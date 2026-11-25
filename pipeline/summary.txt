@@ -1,0 +1,12 @@
+
+== Asym-Tik vs Sym-Tik, gamma=1e-3, CIFAR-10 ==
+asym_tik                     n=10 FID   51.60 +-  2.83   KID 0.0375 +- 0.0021
+sym_tik                      n=10 FID   52.23 +-  4.26   KID 0.0392 +- 0.0041
+FID difference asym - sym: -0.63  95% CI [-4.07, 2.80]  Welch p=0.702
+
+== gamma_GP sweep, ZC-GP + SN, PlantVillage, seeds 0-2 ==
+zc_gp_sn  gamma_gp=0.05      n=3  FID   50.89 +-  5.02   KID 0.0331 +- 0.0053
+zc_gp_sn  gamma_gp=0.2       n=3  FID   47.47 +-  1.66   KID 0.0302 +- 0.0021
+zc_gp_sn  gamma_gp=2.0       n=3  FID   44.20 +-  2.64   KID 0.0279 +- 0.0023
+zc_gp_sn  gamma_gp=0.5 (paper) n=3  FID   45.24 +-  0.74   KID 0.0288 +- 0.0007
+zc_gp  gamma_gp=0.5 (paper)  n=3  FID   37.62 +-  1.65   KID 0.0236 +- 0.0015
